@@ -1,9 +1,10 @@
 #container {
-  height: 75vh;
+  height: auto;
   width: 75vw;
   background-color: aqua;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #container div {
@@ -12,16 +13,16 @@
 }
 #div1 {
   background-color: azure;
-  order: 1;
 }
 #div2 {
   background-color: violet;
 }
 #div3 {
   background-color: yellow;
-  order: 5;
 }
 #div4 {
   background-color: yellowgreen;
-  order: -5;
+}
+#div5 {
+  background-color: orange;
 }
