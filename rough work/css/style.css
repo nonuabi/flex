@@ -1,27 +1,30 @@
 #container {
   height: 500px;
-  width: 300px;
+  width: 500px;
   background-color: aqua;
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
+
+  justify-content: center;
 }
 #container div {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 #div1 {
   background-color: azure;
-  flex-shrink: 4;
+  /* flex-shrink: 4; */
   /* flex-grow: 4; */
 }
 #div2 {
   background-color: violet;
   /* flex-grow: 1; */
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
 }
-/* #div3 {
+#div3 {
   background-color: yellow;
 }
+/*
 #div4 {
   background-color: yellowgreen;
 }
