@@ -3,26 +3,30 @@
   width: 500px;
   background-color: aqua;
   display: flex;
-  flex-direction: column-reverse;
-
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
 }
 #container div {
   height: 100px;
+  max-height: 400px;
   width: 100px;
 }
 #div1 {
   background-color: azure;
+  /* margin: 10px; */
   /* flex-shrink: 4; */
   /* flex-grow: 4; */
 }
 #div2 {
   background-color: violet;
+  /* margin: 30px; */
   /* flex-grow: 1; */
   /* flex-shrink: 1; */
 }
 #div3 {
   background-color: yellow;
+  /* margin: 50px; */
 }
 /*
 #div4 {
